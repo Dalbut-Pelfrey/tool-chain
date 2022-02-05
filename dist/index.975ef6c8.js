@@ -519,7 +519,16 @@ function hmrAcceptRun(bundle, id) {
 }
 
 },{}],"8lqZg":[function(require,module,exports) {
-document.querySelector('#jsUpdated').textContent = 'Hello from JS';
+const greetBtn = document.querySelector('#greetBtn');
+greetBtn.addEventListener('click', (e)=>{
+    let name = document.querySelector('#name');
+    let age = document.querySelector('#age');
+    if (name.value === '') {
+        document.querySelector('#jsUpdated').textContent = `Please enter your name so I can greet you!`;
+        return false;
+    }
+    document.querySelector('#jsUpdated').textContent = `Hello, ${name.value}`;
+});
 
 },{}]},["5ZV8w","8lqZg"], "8lqZg", "parcelRequireeb67")
 
