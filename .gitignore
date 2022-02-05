@@ -2,3 +2,4 @@ dist/
 .parcel-cache/
 token.txt
 ./dist/
+node_modules/
