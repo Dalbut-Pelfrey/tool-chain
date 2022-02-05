@@ -1,0 +1,15 @@
+{
+  "name": "will-it-miss",
+  "version": "1.0.0",
+  "description": "Sample project to learn tool chains",
+
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "tool",
+    "chain"
+  ],
+  "author": "Dalbut Pelfrey William",
+  "license": "ISC"
+}
