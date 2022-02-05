@@ -3,3 +3,4 @@ dist/
 token.txt
 ./dist/
 node_modules/
+defaulttest/
