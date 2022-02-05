@@ -3,8 +3,25 @@ body {
   padding: 0px;
 }
 
+header {
+  margin: auto;
+  width: 80%;
+  padding: 20px;
+}
+
 h1 {
   color: #f55;
+}
+
+main {
+  width: 80%;
+  margin: auto;
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+}
+
+article, aside {
+  padding: 10px;
 }
 
 p {
