@@ -519,7 +519,7 @@ function hmrAcceptRun(bundle, id) {
 }
 
 },{}],"8lqZg":[function(require,module,exports) {
-document.querySelector('#jsUpdated').textContent = "Hello from JS";
+document.querySelector('#jsUpdated').textContent = 'Hello from JS';
 
 },{}]},["5ZV8w","8lqZg"], "8lqZg", "parcelRequireeb67")
 

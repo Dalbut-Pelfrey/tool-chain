@@ -1,19 +1,27 @@
 body {
-margin: 0px;
-padding: 0px;
+  margin: 0px;
+  padding: 0px;
 }
 
 h1 {
-color: #f55;
+  color: #f55;
 }
 
-p{color: #555;}
-
-a:link, a:visited {
-color: #f55;
-text-decoration: underline;
+p {
+  color: #555;
 }
 
-a:focus, a:hover {text-decoration: none}
+a:link,
+a:visited {
+  color: #f55;
+  text-decoration: underline;
+}
 
-a:active{color: #ff5;}
+a:focus,
+a:hover {
+  text-decoration: none;
+}
+
+a:active {
+  color: #ff5;
+}

@@ -1,1 +1,1 @@
-document.querySelector('#jsUpdated').textContent = "Hello from JS"
+document.querySelector('#jsUpdated').textContent = 'Hello from JS';
