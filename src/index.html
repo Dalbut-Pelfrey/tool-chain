@@ -10,23 +10,34 @@
   </head>
   <body>
     <header>
+      <nav>
+        <a href="/">Home</a>
+      </nav>
       <h1>Tool Chain by Dalbut!</h1>
     </header>
     <main>
       <article>
         <p>
-          This page is done as an experiment to try out the tool chain tutorial from MDN Docs.
+          <label for="name">Enter your name</label><br>
+          <input type="text" name="name" id="name" placeholder="Your name"/><br>
+          <label for="age">Please Enter your age</label><br>
+          <input type="text" name="age" id="age" placeholder="Your Age" /><br>
+          <button id="greetBtn">Say Hello!</button>
         </p>
         <p id="jsUpdated"></p>
       </article>
+      <aside>
+        <p>
+          This is some aside content.
+          This page is done as an experiment to try out the tool chain tutorial from MDN Docs.
+          Using Parcel, Prettier and such tools, developing local and pushing to GitHub and deploying to Netlify.
+        </p>
+      </aside>
     </main>
-    <aside>
-      <p>
-        
-      </p>
-    </aside>
     <footer>
-      <a href="https://instagram.com/dalbut_pefrey" title="Dalbut's Instagram Page" target="_blank">Instagram</a>
+      <div>
+        <a href="https://instagram.com/dalbut_pefrey" title="Dalbut's Instagram Page" target="_blank">Instagram</a>
+      </div>
     </footer>
     <script src="index.js" type="module"></script>
   </body>
